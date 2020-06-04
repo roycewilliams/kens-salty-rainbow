@@ -22,3 +22,4 @@ This should illustrate to developers and IoT manufacturers that choosing descryp
 * https://setuprouter.com/common-passwords/
 * https://github.com/jeanphorn/wordlist
 * https://github.com/danielmiessler/SecLists/tree/master/Passwords/Default-Credentials
+* https://www.f5.com/labs/articles/threat-intelligence/spaceballs-security--the-top-attacked-usernames-and-passwords
