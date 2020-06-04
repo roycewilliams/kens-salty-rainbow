@@ -10,6 +10,8 @@ Rainbow tables are largely dead for most password-cracking use cases (even for u
 
 This should illustrate to developers and IoT manufacturers that choosing descrypt has been a bad idea for some time - and will only get worse.
 
+To be clear, descrypt was a pretty brilliant improvement when it was introduced, and I'm a huge fan. But its time is passed.
+
 ### Interesting examples ###
 * `fnRL/G5lXVMug:admin`
   * Some Palo Alto gear uses 'admin' as the default password, configured by default with the same salt every time
