@@ -4,18 +4,19 @@
 # Created: 2020-06-04
 # License: MIT
 
-for plaintext in $(cat password.list); do
+echo "Checking for plaintexts without hash lists ..."
+
+for plaintext in $(LC_ALL=C sort password.list); do
 
     ALLSALTS_FILE=./lists/descrypt-${plaintext}-allsalts.txt
 
     if [ -f ${ALLSALTS_FILE} ]; then
 
-        echo "- List for ${plaintext} exists, skipped."
+        echo "List for plaintext \"${plaintext}\" exists, skipped."
 
     else
 
-        echo ""
-        >&2 echo "- List for ${plaintext} missing, generating ..."
+        >&2 echo "List for plaintext \"${plaintext}\" missing, generating ..."
         echo "# All possible descrypt hashes of the password \"${plaintext}\", using all possible salts." >${ALLSALTS_FILE}
         echo "# Some may be commented on the side - strip before using in scripts." >>${ALLSALTS_FILE}
         echo "# If you find a device that always uses one of these, let me know." >>${ALLSALTS_FILE}
