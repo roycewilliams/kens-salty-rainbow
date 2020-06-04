@@ -5,7 +5,7 @@
 
 This is an archive of descrypt hashes for common passwords.
 
-### Rationale ###
+### Why? ###
 Rainbow tables are largely dead for most password-cracking use cases (even for unsalted hashes). But as the historical salted hash, descrypt is a unique hybrid: slow enough to take time to exhaust, but fast enough (and truncated enough) to make naive lookup useful for the non-specialists (who are desperate and Googling).
 
 This should illustrate to developers and IoT manufacturers that choosing descrypt has been a bad idea for some time - and will only get worse.
