@@ -6,7 +6,14 @@
 
 echo "Checking for plaintexts without hash lists ..."
 
-for plaintext in $(LC_ALL=C sort password.list); do
+INPUT_FILE=password.list
+
+if [ ! -z "$1" -a -f "$1" ]; then
+    echo "Using alternate input file $1"
+    INPUT_FILE=$1
+fi
+
+for plaintext in $(LC_ALL=C sort ${INPUT_FILE}); do
 
     ALLSALTS_FILE=./lists/descrypt-${plaintext}-allsalts.txt
 
