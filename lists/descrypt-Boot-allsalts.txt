@@ -1,5 +1,4 @@
 # All possible descrypt hashes of the password "Boot", using all possible salts.
-# Some may be commented on the side - strip before using in scripts.
 # If you find a device that always uses one of these, let me know.
 ..iZK3W1TbhLY
 ./98l1uYhneuU

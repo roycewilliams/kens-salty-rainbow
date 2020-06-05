@@ -1,5 +1,4 @@
 # All possible descrypt hashes of the password "recover", using all possible salts.
-# Some may be commented on the side - strip before using in scripts.
 # If you find a device that always uses one of these, let me know.
 ..cm8bxJ2tNig
 ./eqyFYw9DHA.

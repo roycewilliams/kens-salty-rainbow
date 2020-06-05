@@ -1,5 +1,4 @@
 # All possible descrypt hashes of the password "S3TUP", using all possible salts.
-# Some may be commented on the side - strip before using in scripts.
 # If you find a device that always uses one of these, let me know.
 ..PI8G.zuk/7s
 ./6gQzAV9ZxnM

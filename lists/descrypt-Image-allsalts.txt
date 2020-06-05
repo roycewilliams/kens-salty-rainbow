@@ -1,5 +1,4 @@
 # All possible descrypt hashes of the password "Image", using all possible salts.
-# Some may be commented on the side - strip before using in scripts.
 # If you find a device that always uses one of these, let me know.
 ..L2p6FPk8S6E
 ./w7IEv7hSr3A

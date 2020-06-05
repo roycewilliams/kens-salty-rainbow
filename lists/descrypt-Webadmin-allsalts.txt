@@ -1,5 +1,4 @@
 # All possible descrypt hashes of the password "Webadmin", using all possible salts.
-# Some may be commented on the side - strip before using in scripts.
 # If you find a device that always uses one of these, let me know.
 ..o9i2DJ1zdQs
 ./Z8U7yv1Bf8w
