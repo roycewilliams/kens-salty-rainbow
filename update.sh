@@ -13,7 +13,7 @@ if [ ! -z "$1" -a -f "$1" ]; then
     INPUT_FILE=$1
 fi
 
-for plaintext in $(LC_ALL=C sort ${INPUT_FILE}); do
+for plaintext in $(cat ${INPUT_FILE}); do
 
     ALLSALTS_FILE=./lists/descrypt-${plaintext}-allsalts.txt
 
