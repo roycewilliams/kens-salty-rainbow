@@ -1,4 +1,5 @@
 # All possible descrypt hashes of the password "mgr", using all possible salts.
+# From https://github.com/roycewilliams/kens-salty-rainbow
 # If you find a device that always uses one of these, let me know.
 ..Qj3FrcN/g56
 ./L8BdTcuTCN2

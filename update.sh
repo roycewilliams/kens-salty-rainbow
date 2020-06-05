@@ -25,6 +25,7 @@ for plaintext in $(cat ${INPUT_FILE}); do
 
         >&2 echo "List for plaintext \"${plaintext}\" missing, generating ..."
         echo "# All possible descrypt hashes of the password \"${plaintext}\", using all possible salts." >${ALLSALTS_FILE}
+        echo "# From https://github.com/roycewilliams/kens-salty-rainbow" >>${ALLSALTS_FILE}
         echo "# If you find a device that always uses one of these, let me know." >>${ALLSALTS_FILE}
 
         ./gen-descrypt-allsalts.sh ${plaintext} >> ${ALLSALTS_FILE}

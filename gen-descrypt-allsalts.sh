@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Generate all valid descrypts for a given string.
-# https://github.com/roycewilliams/kens-salty-rainbow
+# From https://github.com/roycewilliams/kens-salty-rainbow
 # License: MIT
 
 if [ -z "$1" ]; then

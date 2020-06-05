@@ -1,5 +1,6 @@
 # All possible descrypt hashes of the password "0000", using all possible salts.
-# If you find a device that always uses one of these, let me know.
+# From https://github.com/roycewilliams/kens-salty-rainbow
+# From If you find a device that always uses one of these, let me know.
 ..k6omwCeteaU
 ./Y4qugoPAa3k
 .0XQRjEILbqeE

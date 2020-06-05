@@ -1,4 +1,5 @@
 # All possible descrypt hashes of the password "R3COV3RY", using all possible salts.
+# From https://github.com/roycewilliams/kens-salty-rainbow
 # If you find a device that always uses one of these, let me know.
 ..YlM1J1A1L7g
 ./Kza.6d80JGs

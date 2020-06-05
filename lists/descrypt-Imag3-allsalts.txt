@@ -1,4 +1,5 @@
 # All possible descrypt hashes of the password "Imag3", using all possible salts.
+# From https://github.com/roycewilliams/kens-salty-rainbow
 # If you find a device that always uses one of these, let me know.
 ...pWTym9LggQ
 ./6955MNV8vFs

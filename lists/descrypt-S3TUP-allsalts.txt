@@ -1,4 +1,5 @@
 # All possible descrypt hashes of the password "S3TUP", using all possible salts.
+# From https://github.com/roycewilliams/kens-salty-rainbow
 # If you find a device that always uses one of these, let me know.
 ..PI8G.zuk/7s
 ./6gQzAV9ZxnM
