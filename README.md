@@ -25,7 +25,7 @@ This repository should illustrate - to developers, embedded platform architects,
 ### Notes ###
 * All 4096 *valid* salts for the original descrypt algorithm are used here. Some implementations of descrypt may use invalid characters in the salt.
 * Because descrypt truncates passwords at eight characters, "actual" passwords (as intended by the person who chose them) may vary.
-* Yes, I know that this isn't actually a rainbow table. That would be massive overkill for this use case. Instead, we harness the power of search-engine indexing of GitHub.
+* Yes, I know that this isn't actually a rainbow table. That would be massive overkill for this use case. Instead, we harness the power of search-engine indexing of GitHub. I just couldn't pass up the name.
 
 ### References ###
 * https://setuprouter.com/common-passwords/

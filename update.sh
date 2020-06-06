@@ -21,7 +21,9 @@ fi
 
 for plaintext in $(cat ${INPUT_FILE}); do
 
-    ALLSALTS_FILE=./lists/descrypt-${plaintext}-allsalts.txt
+    char1=$(echo $plaintext | cut -b1)
+
+    ALLSALTS_FILE=./lists/${char1}/descrypt-${plaintext}-allsalts.txt
 
     if [ -f ${ALLSALTS_FILE} ]; then
 
