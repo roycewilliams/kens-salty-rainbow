@@ -32,3 +32,4 @@ This repository illustrates - to developers, embedded platform architects, and I
 * https://github.com/jeanphorn/wordlist
 * https://github.com/danielmiessler/SecLists/tree/master/Passwords/Default-Credentials
 * https://www.f5.com/labs/articles/threat-intelligence/spaceballs-security--the-top-attacked-usernames-and-passwords
+* [WrenSecurity openddj password-with-all-crypt-salts.txt](https://github.com/WrenSecurity/wrends/blob/master/opendj-server-legacy/tests/unit-tests-testng/resource/password-with-all-crypt-salts.txt)
