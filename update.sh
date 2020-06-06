@@ -7,8 +7,10 @@
 echo " - Consolidating lists ..."
 wc -l password.list
 cat password-base.list >>password.list
-sort u -o password.list password.list
+sort -u -o password.list password.list
 wc -l password.list
+
+VERBOSE=
 
 echo "Checking for plaintexts without hash lists ..."
 
@@ -27,7 +29,7 @@ for plaintext in $(cat ${INPUT_FILE}); do
 
     if [ -f ${ALLSALTS_FILE} ]; then
 
-        echo "List for plaintext \"${plaintext}\" exists, skipped."
+        [ "${VERBOSE}" ] && echo "List for plaintext \"${plaintext}\" exists, skipped."
 
     else
 
