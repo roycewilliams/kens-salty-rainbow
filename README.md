@@ -34,3 +34,7 @@ This repository should illustrate - to developers, embedded platform architects,
 * [F5 attack article](https://www.f5.com/labs/articles/threat-intelligence/spaceballs-security--the-top-attacked-usernames-and-passwords)
 * [F5 IoT article](https://www.f5.com/labs/articles/threat-intelligence/the-hunt-for-iot--multi-purpose-attack-thingbots-threaten-intern)
 * [WrenSecurity opendj password-with-all-crypt-salts.txt](https://github.com/WrenSecurity/wrends/blob/master/opendj-server-legacy/tests/unit-tests-testng/resource/password-with-all-crypt-salts.txt)
+* https://datarecovery.com/rd/default-passwords/
+* https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
+* https://www.openwall.com/passwords/wordlists/password-2011.lst
+* https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/default_pass_for_services_unhash.txt
