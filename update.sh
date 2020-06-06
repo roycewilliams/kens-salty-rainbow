@@ -4,6 +4,12 @@
 # Created: 2020-06-04
 # License: MIT
 
+echo " - Consolidating lists ..."
+wc -l password.list
+cat password-base.list >>password.list
+sort u -o password.list password.list
+wc -l password.list
+
 echo "Checking for plaintexts without hash lists ..."
 
 INPUT_FILE=password.list
