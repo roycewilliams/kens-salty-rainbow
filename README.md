@@ -8,13 +8,13 @@
 ### Why? ###
 Rainbow tables are largely dead for most password-cracking use cases (even for *unsalted* hashes).
 
-But as the historical (and historic) salted hash, descrypt is a unique hybrid: slow enough to take time to exhaust, but fast enough (and truncated enough) to make naive lookup useful for the non-specialists (who are desperate and Googling).
+But as the historical (and historic) salted hash, descrypt is a unique hybrid: slow enough to take time to exhaust, but fast enough (and truncated enough) to make naive lookup useful for non-specialists (who are desperate and Googling).
 
 The descrypt hash format also still seems to be the default for a number of embedded platforms.
 
 This all means that descrypt is perhaps the only standard *salted* hash for which a rainbow table (or other lookup) might still be useful - hence the name.
 
-This repository illustrates - to developers, embedded platform architects, and IoT manufacturers - that choosing descrypt has been a bad idea for some time ... and will only get worse.
+This repository should illustrate - to developers, embedded platform architects, and IoT manufacturers - that choosing descrypt has been a bad idea for some time ... and will only get worse.
 
 (And to be clear, I think that descrypt was a pretty brilliant improvement when it was introduced, and I'm a [huge](https://www.techsolvency.com/passwords/ztex/) [fan](https://minnie.tuhs.org/pipermail/tuhs/2019-October/019125.html). But its time has passed.)
 
@@ -23,7 +23,7 @@ This repository illustrates - to developers, embedded platform architects, and I
   * Some Palo Alto gear uses 'admin' as the default password, configured by default with the same salt every time
 
 ### Notes ###
-* All *valid* salts for the original descrypt algorithm are used here. Some implementations of descrypt may use invalid characters in the salt.
+* All 4096 *valid* salts for the original descrypt algorithm are used here. Some implementations of descrypt may use invalid characters in the salt.
 * Because descrypt truncates passwords at eight characters, "actual" passwords (as intended by the person who chose them) may vary.
 * Yes, I know that this isn't actually a rainbow table. That would be massive overkill for this use case. Instead, we harness the power of search-engine indexing of GitHub.
 
@@ -31,5 +31,6 @@ This repository illustrates - to developers, embedded platform architects, and I
 * https://setuprouter.com/common-passwords/
 * https://github.com/jeanphorn/wordlist
 * https://github.com/danielmiessler/SecLists/tree/master/Passwords/Default-Credentials
-* https://www.f5.com/labs/articles/threat-intelligence/spaceballs-security--the-top-attacked-usernames-and-passwords
-* [WrenSecurity openddj password-with-all-crypt-salts.txt](https://github.com/WrenSecurity/wrends/blob/master/opendj-server-legacy/tests/unit-tests-testng/resource/password-with-all-crypt-salts.txt)
+* [F5 attack article](https://www.f5.com/labs/articles/threat-intelligence/spaceballs-security--the-top-attacked-usernames-and-passwords)
+* [F5 IoT article](https://www.f5.com/labs/articles/threat-intelligence/the-hunt-for-iot--multi-purpose-attack-thingbots-threaten-intern)
+* [WrenSecurity opendj password-with-all-crypt-salts.txt](https://github.com/WrenSecurity/wrends/blob/master/opendj-server-legacy/tests/unit-tests-testng/resource/password-with-all-crypt-salts.txt)
