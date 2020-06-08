@@ -38,3 +38,4 @@ This repository should illustrate - to developers, embedded platform architects,
 * https://en.wikipedia.org/wiki/List_of_the_most_common_passwords
 * https://www.openwall.com/passwords/wordlists/password-2011.lst
 * https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/default_pass_for_services_unhash.txt
+* [Kali Hydra list](https://gitlab.com/kalilinux/packages/hydra/blob/kali/master/dpl4hydra_full.csv)
