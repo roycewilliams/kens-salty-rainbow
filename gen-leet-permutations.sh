@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # From https://github.com/roycewilliams/kens-salty-rainbow
 # License: MIT
 
