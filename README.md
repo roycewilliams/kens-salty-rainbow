@@ -27,6 +27,11 @@ This repository should illustrate - to developers, embedded platform architects,
 * Because descrypt truncates passwords at eight characters, "actual" passwords (as intended by the person who chose them) may vary.
 * Yes, I know that this isn't actually a rainbow table. That would be massive overkill for this use case. Instead, we harness the power of search-engine indexing of GitHub. I just couldn't pass up the name.
 
+## Related work
+* 'password' as many unsalted hashes: https://gist.github.com/roycewilliams/5e8d676ac4fe54fb7b6cb233b0721f57
+* 'password' hashed with the first 10,000 rounds of MD5: https://gist.github.com/roycewilliams/794e4d7a81e7840deae29fdc7c03fa10
+* Common season+year+special passwords, major unsalted hashes: https://gist.github.com/roycewilliams/1603d23a4c5d3eda44fae348f6e0e954
+
 ### References ###
 * https://setuprouter.com/common-passwords/
 * https://github.com/jeanphorn/wordlist
