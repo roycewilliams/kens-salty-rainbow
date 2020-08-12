@@ -49,3 +49,4 @@ This repository should illustrate - to developers, embedded platform architects,
 * https://www.openwall.com/passwords/wordlists/password-2011.lst
 * https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/default_pass_for_services_unhash.txt
 * [Kali Hydra list](https://gitlab.com/kalilinux/packages/hydra/blob/kali/master/dpl4hydra_full.csv)
+* https://www.nccgroup.com/us/about-us/newsroom-and-events/blog/2010/december/rainbow-tables-for-unix-des-crypt3-hashes/
