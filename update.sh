@@ -64,6 +64,12 @@ for plaintext in $(cat ${INPUT_FILE}); do
 
 done
 
+echo - "Updating total ..."
+TOTALWORDS=$(cat password.list | wc -l)
+
+sed -i.bak "s~<\!-- counter -->.*<\!-- endcounter -->~<\!-- counter --> ${TOTALWORDS} <\!-- endcounter -->~g" README.md
+
+
 git add lists/*
 git add lists/*/*
 

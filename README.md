@@ -3,7 +3,7 @@
 
 ## `ken`'s Salty Rainbow ##
 
-`ken`'s Salty "Rainbow" is a search-engine-discoverable archive of [descrypt](https://en.wikipedia.org/wiki/Crypt_(C)#Traditional_DES-based_scheme) (traditional Unix DES crypt) hashes for common passwords - especially default passwords, temporary passwords, and generic operational/lab/development passwords.
+`ken`'s Salty "Rainbow" is a search-engine-discoverable archive of <!-- counter --> 3479 <!-- endcounter --> [descrypt](https://en.wikipedia.org/wiki/Crypt_(C)#Traditional_DES-based_scheme) (traditional Unix DES crypt) hashes for common passwords - especially default passwords, temporary passwords, and generic operational/lab/development passwords.
 
 ### Why? ###
 Rainbow tables are largely dead for most password-cracking use cases (even for *unsalted* hashes).
@@ -39,3 +39,6 @@ This repository should illustrate - to developers, embedded platform architects,
 * https://www.openwall.com/passwords/wordlists/password-2011.lst
 * https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/default_pass_for_services_unhash.txt
 * [Kali Hydra list](https://gitlab.com/kalilinux/packages/hydra/blob/kali/master/dpl4hydra_full.csv)
+* [NCCGroup 2010 descrypt rainbow-table article](https://www.nccgroup.com/us/about-us/newsroom-and-events/blog/2010/december/rainbow-tables-for-unix-des-crypt3-hashes/)
+* [Ars Technical article](https://arstechnica.com/information-technology/2019/10/forum-cracks-the-vintage-passwords-of-ken-thompson-and-other-unix-pioneers/)
+* [john-users 2015 thread on rainbow tables](https://www.openwall.com/lists/john-dev/2015/06/25/8)
