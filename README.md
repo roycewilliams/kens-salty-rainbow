@@ -3,7 +3,7 @@
 
 ## `ken`'s Salty Rainbow ##
 
-`ken`'s Salty "Rainbow" is a search-engine-discoverable archive of [descrypt](https://en.wikipedia.org/wiki/Crypt_(C)#Traditional_DES-based_scheme) (traditional Unix DES crypt) hashes for <!-- counter --> 5633 <!-- endcounter --> [common passwords](password-base.list) and [variants](password.list) - especially default passwords, temporary passwords, and generic operational/lab/development passwords.
+`ken`'s Salty "Rainbow" is a search-engine-discoverable archive of [descrypt](https://en.wikipedia.org/wiki/Crypt_(C)#Traditional_DES-based_scheme) (traditional Unix DES crypt) hashes for <!-- counter --> 5687 <!-- endcounter --> [common passwords](password-base.list) and [variants](password.list) - especially default passwords, temporary passwords, and generic operational/lab/development passwords.
 
 ### Why? ###
 Rainbow tables are largely dead for most password-cracking use cases (even for *unsalted* hashes).
