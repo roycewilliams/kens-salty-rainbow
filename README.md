@@ -19,8 +19,13 @@ This repository should illustrate - to developers, embedded platform architects,
 (And to be clear, I think that descrypt was a pretty brilliant improvement when it was introduced, and I'm a [huge](https://www.techsolvency.com/passwords/ztex/) [fan](https://minnie.tuhs.org/pipermail/tuhs/2019-October/019125.html). But its time has passed.)
 
 ### Interesting examples ###
-* `fnRL/G5lXVMug:admin`
-  * Some Palo Alto gear uses 'admin' as the default password, configured by default with the same salt every time
+* Some Palo Alto gear uses 'admin' as the default password, configured by default with the same salt every time
+  * `fnRL/G5lXVMug:admin`
+
+* DSL-2750u routers with PTCL firmware have these hard-coded default credentials:
+  * kcCkosSQIzsyI:admin
+  * tFXuAIJGpWSdY:user
+  * 3YpechUwDY1Fc:support
 
 ### Notes ###
 * All 4096 *valid* salts for the original descrypt algorithm are used here. Some implementations of descrypt may use invalid characters in the salt.
