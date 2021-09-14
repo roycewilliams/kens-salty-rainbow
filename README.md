@@ -23,9 +23,9 @@ This repository should illustrate - to developers, embedded platform architects,
   * `fnRL/G5lXVMug:admin`
 
 * DSL-2750u routers with PTCL firmware have these hard-coded default credentials:
-  * kcCkosSQIzsyI:admin
-  * tFXuAIJGpWSdY:user
-  * 3YpechUwDY1Fc:support
+  * `kcCkosSQIzsyI:admin`
+  * `tFXuAIJGpWSdY:user`
+  * `3YpechUwDY1Fc:support`
 
 ### Notes ###
 * All 4096 *valid* salts for the original descrypt algorithm are used here. Some implementations of descrypt may use invalid characters in the salt.
