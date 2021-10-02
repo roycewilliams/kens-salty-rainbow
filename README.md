@@ -57,3 +57,4 @@ This repository should illustrate - to developers, embedded platform architects,
 * [NCCGroup 2010 descrypt rainbow-table article](https://www.nccgroup.com/us/about-us/newsroom-and-events/blog/2010/december/rainbow-tables-for-unix-des-crypt3-hashes/)
 * [Ars Technical article](https://arstechnica.com/information-technology/2019/10/forum-cracks-the-vintage-passwords-of-ken-thompson-and-other-unix-pioneers/)
 * [john-users 2015 thread on rainbow tables](https://www.openwall.com/lists/john-dev/2015/06/25/8)
+* [When names outlive their usefulness](https://www.seancassidy.me/when-names-outlive-their-usefulness.html) (Sean Cassidy)
