@@ -7,7 +7,7 @@ EXPECTED_LENGTH=4099
 
 >&2 echo "- Checking for unexpected hashlist lengths ..."
 
-for file in $(ls -1 lists/descrypt*); do
-    wc -l $file | grep "^${EXPECTED_LENGTH} " >/dev/null || echo "-Error: unexpected length in $file"
+for file in lists/*/descrypt*; do
+    wc -l "$file" | grep "^${EXPECTED_LENGTH} " >/dev/null || echo "-Error: unexpected length in $file"
 done
 

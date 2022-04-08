@@ -35,11 +35,11 @@ fi
 
 for plaintext in $(cat ${INPUT_FILE}); do
 
-    char1=$(echo $plaintext | cut -b1)
+    char1=$(echo "$plaintext" | cut -b1)
 
     ALLSALTS_FILE=./lists/${char1}/descrypt-${plaintext}-allsalts.txt
 
-    if [ -f ${ALLSALTS_FILE} ]; then
+    if [ -f "${ALLSALTS_FILE}" ]; then
 
         [ "${VERBOSE}" ] && echo "--- List for plaintext \"${plaintext}\" exists, skipped."
 
@@ -50,15 +50,15 @@ for plaintext in $(cat ${INPUT_FILE}); do
         echo "# From https://github.com/roycewilliams/kens-salty-rainbow" >>${ALLSALTS_FILE}
         echo "# If you find a device that always uses one of these, let me know." >>${ALLSALTS_FILE}
 
-        ./gen-descrypt-allsalts.sh ${plaintext} >> ${ALLSALTS_FILE}
+        ./gen-descrypt-allsalts.sh "${plaintext}" >> ${ALLSALTS_FILE}
 
-        ls -la ${ALLSALTS_FILE}
-        wc -l ${ALLSALTS_FILE}
-        head -n 10 ${ALLSALTS_FILE} | egrep -v '^#' | head -n 1
-        tail -n 1 ${ALLSALTS_FILE}
+        ls -la "${ALLSALTS_FILE}"
+        wc -l "${ALLSALTS_FILE}"
+        head -n 10 "${ALLSALTS_FILE}" | egrep -v '^#' | head -n 1
+        tail -n 1 "${ALLSALTS_FILE}"
         echo ""
 
-        git add ${ALLSALTS_FILE}
+        git add "${ALLSALTS_FILE}"
 
     fi
 

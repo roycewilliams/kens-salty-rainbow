@@ -19,7 +19,7 @@ if [ ! -z "${NEWLIST}" ]; then
     read blah
     echo ""
 
-    echo ${NEWLIST} | tr '[:blank:]' '\n' | ./gen-leet-permutations.sh | tee -a password.list
+    echo "${NEWLIST}" | tr '[:blank:]' '\n' | ./gen-leet-permutations.sh | tee -a password.list
     echo ""
 
     sort -u -o password.list password.list

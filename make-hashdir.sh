@@ -13,9 +13,9 @@ echo "- Creating any missing hash directories ..."
 for char1 in $(cut -b1 password.list | sort -u); do
 
     DESTDIR=${LISTDIR}/$char1/
-    if [ ! -d ${DESTDIR} ]; then
-        echo "-Creating missing directory: ${DESTDIR}"
-        ${DEBUG} mkdir ${DESTDIR}
+    if [ ! -d "${DESTDIR}" ]; then
+        echo "- Creating missing directory: ${DESTDIR}"
+        ${DEBUG} mkdir "${DESTDIR}"
     fi
 
     # Just used during conversion.
