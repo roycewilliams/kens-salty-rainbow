@@ -3,7 +3,7 @@
 
 ## `ken`'s Salty Rainbow ##
 
-`ken`'s Salty "Rainbow" is a search-engine-discoverable archive of [descrypt](https://en.wikipedia.org/wiki/Crypt_(C)#Traditional_DES-based_scheme) (traditional Unix DES crypt) hashes for <!-- counter --> 7126 <!-- endcounter --> [common passwords](password-base.list) and [variants](password.list) - especially default passwords, temporary passwords, and generic operational/lab/development passwords.
+`ken`'s Salty "Rainbow" is a search-engine-discoverable archive of [descrypt](https://en.wikipedia.org/wiki/Crypt_(C)#Traditional_DES-based_scheme) (traditional Unix DES crypt) hashes for <!-- counter --> 7180 <!-- endcounter --> [common passwords](password-base.list) and [variants](password.list) - especially default passwords, temporary passwords, and generic operational/lab/development passwords.
 
 ### Why? ###
 Rainbow tables are largely dead for most password-cracking use cases (even for *unsalted* hashes).
@@ -23,9 +23,9 @@ This repository should illustrate - to developers, embedded platform architects,
   * `fnRL/G5lXVMug:admin`
 
 * DSL-2750u routers with PTCL firmware have these hard-coded default credentials:
-  * `kcCkosSQIzsyI:admin`
-  * `tFXuAIJGpWSdY:user`
-  * `3YpechUwDY1Fc:support`
+  * `admin   kcCkosSQIzsyI:admin`
+  * `user    tFXuAIJGpWSdY:user`
+  * `support 3YpechUwDY1Fc:support`
 
 ### Notes ###
 * All 4096 *valid* salts for the original descrypt algorithm are used here. Some implementations of descrypt may use invalid characters in the salt.
