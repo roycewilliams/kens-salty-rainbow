@@ -26,6 +26,7 @@ This repository should illustrate - to developers, embedded platform architects,
   * `admin   kcCkosSQIzsyI:admin`
   * `user    tFXuAIJGpWSdY:user`
   * `support 3YpechUwDY1Fc:support`
+  * `nobody  LOrMbvzfgb4HM:nobody`
 
 ### Notes ###
 * All 4096 *valid* salts for the original descrypt algorithm are used here. Some implementations of descrypt may use invalid characters in the salt.
