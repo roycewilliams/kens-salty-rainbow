@@ -23,7 +23,7 @@ This repository should illustrate - to developers, embedded platform architects,
   * `fnRL/G5lXVMug:admin`
 
 * DSL-2750u routers with PTCL firmware have these hard-coded default credentials:
-  * `admin   kcCkosSQIzsyI:admin`
+  * `admin   kcCkosSQIzsyI:11264`
   * `user    tFXuAIJGpWSdY:user`
   * `support 3YpechUwDY1Fc:support`
   * `nobody  LOrMbvzfgb4HM:11264` (need confirmation that this is universal)
