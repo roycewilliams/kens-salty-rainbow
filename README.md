@@ -16,7 +16,7 @@ This all means that descrypt is perhaps the only standard *salted* hash for whic
 
 This repository should illustrate - to developers, embedded platform architects, and IoT manufacturers - that choosing descrypt has been a bad idea for some time ... and will only get worse.
 
-(And to be clear, I think that descrypt was a pretty brilliant improvement when it was introduced, and I'm a [huge](https://www.techsolvency.com/passwords/ztex/) [fan](https://minnie.tuhs.org/pipermail/tuhs/2019-October/019125.html). But its time has passed.)
+(And to be clear, I think that descrypt was a pretty brilliant improvement when it was introduced, and I'm a [huge](https://www.techsolvency.com/passwords/ztex/) [fan](https://www.tuhs.org/pipermail/tuhs/2019-October/019125.html). But its time has passed.)
 
 ### Interesting examples ###
 * Some Palo Alto gear uses 'admin' as the default password, configured by default with the same salt every time
